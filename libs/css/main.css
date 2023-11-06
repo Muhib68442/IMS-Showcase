@@ -1,0 +1,223 @@
+/***** LANDING *****/
+.landing{
+    position: relative;
+    display: block;
+    padding: 0;
+    border-radius: 0px !important;
+}
+.landing img{
+    border-radius: 0px;
+}
+.landing-contents{
+    position: absolute;
+    top: 45%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 70%; 
+}
+
+.landing-image img{
+    width: 45%;
+    display: block;
+    margin:  0 auto;
+    border-radius: 0px !important;
+}
+.landing-text{
+    margin-left: auto;
+    width: 100%;
+}
+.landing-text p{
+    color: var(--text-l);
+}
+.landing-text a{
+    width: 30% !important;
+}
+
+/***** NAVBAR *****/
+.navbar{
+    width: 60%;
+    margin: 0 auto;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.navbar a{
+    text-decoration: none;
+    color: var(--theme);
+    transition: 0.1s;
+    font-size: 20px;
+    font-family: fontSB;
+}
+.navbar a:hover{
+    color: var(--theme-d);
+}
+
+/***** What is IMS ? *****/
+.section-text{
+    width: 50%;
+    margin: 0 auto;
+}
+.section-text h3{
+    font-size: 30px;
+}
+.section-text p{
+    line-height: 150%;
+}
+.section-image img{
+    width: 60%;
+    display: block;
+    margin:  0 auto;
+}
+
+
+/***** Projects *****/
+.section-contents{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.project{
+    width: 30%;
+    /* background-color:var(--theme); */
+    padding: 15px;
+    border-radius: 16px;
+    margin: 10px;
+    display: inline-block;
+    transition: 0.1s;
+}
+.project:hover{
+    background-color: var(--theme);
+    transition: 0.1s;
+}
+.project img{
+    border-radius: 6px;
+    border: 2px solid var(--theme);
+}
+
+/* Labs */
+.project{
+    position: relative !important;
+
+
+}
+.covertext{
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: fontL;
+    color: var(--theme-d);
+    transition: top 0.5s ease;
+    text-shadow: 0px 0px 10px var(--theme);
+}
+
+.project:hover .projectimg{
+    opacity: 40%;
+    border: 2px solid var(--theme-d) !important;
+}
+.project:hover .covertext{
+    display: block;
+    top: 30%;
+
+}
+
+
+
+/* ORDER */
+.order-contents
+.order-text{
+    width: 80%;
+}
+.order-img {
+    width: 10%;
+    display: block;
+    margin: 0 auto; 
+}
+.tc{
+    margin-top: 30px;
+}
+
+
+/* Contact */
+.contact-text{
+    width: 40%;
+
+}
+.contact-img{
+    width: 40%;
+}
+.contact-img img{
+    width: 40%;
+    border-radius: 0px;
+    display: block;
+    margin:  0 auto;
+}
+
+.contact-links{
+    width: 50%;
+    margin: 0 auto;
+
+}
+.c-link{
+    margin-left: auto !important;
+    width: 60%;
+    background-color: var(--theme);
+    color: var(--text-l);
+    font-size: 15px;
+ 
+    padding: 10px 10px 10px 10px;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.1s;
+    margin: 10px 0px;
+}
+.c-link p{
+    font-family: fontM !important;
+}
+.c-link img{
+    width: 30px;
+    border-radius: 0;
+}
+.c-link:hover{
+    background-color: var(--theme-d);
+    transition: 0.1s;
+}
+.circle{
+    background-color: var(--bg);
+    height: 10px ;
+    width: 10px;
+    border-radius: 50px;
+    margin-right: auto;
+    margin-left: 30px;
+    transition: 0.1s;
+}
+.c-link:hover .circle{
+    background-color: var(--theme);
+    transition: 0.1s;
+}
+.c-link:hover .text-sm{
+    color: var(--text-l);
+}
+
+
+/* FOOTER */
+footer{
+    border-top-right-radius: var(--radiusA);
+    border-top-left-radius:  var(--radiusA);
+    background-color: var(--bg-x);
+    padding: 10px 0px;
+}
+footer p{
+    font-size: 14px;
+    color: var(--text-d);
+    font-family: fontL;
+    text-align: center;
+}
+
+
+
+/******************* PROJECT DETAILS PAGE    *****************/

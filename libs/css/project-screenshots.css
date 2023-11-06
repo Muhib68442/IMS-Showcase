@@ -1,0 +1,23 @@
+.project-bg{
+    filter: blur(5px);
+}
+.landing-text p{
+    color: var(--text-d);
+}
+.navbar{
+    z-index: 99999;
+    color: var(--theme-d) !important;
+}
+.navbar a{
+    color: var(--theme-d) !important;
+}
+.navbar a:hover{
+    color: var(--theme) !important;
+}
+
+.ss-text{
+    width: 100%;
+}
+.ss-image{
+    width: 80%;
+}

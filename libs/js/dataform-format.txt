@@ -1,0 +1,72 @@
+
+        // INDEX N :  IMS
+    {
+        // Index N
+        projectName: "",
+        projectDetailsS: "",
+        projectDetails: "",
+        projectDescription: "",
+        backgroundImg: "",
+        projectImg: "",
+
+        //Options
+        optionShot:"../libs/images/projects/ / -options.png",
+
+        option1Name: "",
+        option1:"",
+
+        option2Name: "",
+        option2:"",
+
+        option3Name: "",
+        option3:"",
+
+        option4Name: "",
+        option4:"",
+
+        // Links (?project= ENTER INDEX NUM HERE)
+        projectLink: "project-details.html?project=", 
+        screenshotLink:"project-screenshots.html?project=",
+        downloadLink: "download-project.html?project=", 
+
+        disabledFeatures: [],   // 0,2,3,4 like this
+
+
+        //Shots
+        shot1Title:"",
+        shot1Desc:"",
+        shot1Img:"../libs/images/projects/ / .png",
+
+        shot2Title:"",
+        shot2Desc:"",
+        shot2Img:"../libs/images/projects/ / .png",
+
+        shot3Title:"",
+        shot3Desc:"",
+        shot3Img:"../libs/images/projects/ / .png",
+
+        shot4Title:"",
+        shot4Desc:"",
+        shot4Img:"../libs/images/projects/ / .png",
+
+
+        // Download 
+        imsVer:" ( Release)",
+        lastUpdate:"Jan 1, 2000",
+        resolution:"1920 x 1080",
+        extDownLink:"#",
+        userManual:"#",
+        dbName:"",
+        folderName:"",
+
+        // Credentials 
+        level1Username:"",
+        level1Password:"",
+
+        level2Username:"",
+        level2Password:"",
+
+        level3Username:"",
+        level3Password:"",
+
+    },

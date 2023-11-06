@@ -1,0 +1,8 @@
+.project-container{
+    flex-wrap: wrap;
+}
+.project-text>.text-h{
+    text-align: center;
+    font-size: 30px !important;
+
+}
