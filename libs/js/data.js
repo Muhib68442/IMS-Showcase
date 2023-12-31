@@ -58,6 +58,7 @@ const projectData = [
         imsVer:"1.3.1 (Improved UI/UX)",
         lastUpdate:"Oct 30, 2024",
         resolution:"1920 x 1080",
+		    liveLink : "http://ims.free.nf/",
         extDownLink:"https://www.google.com",
         userManual:"https://www.google.com",
         dbName:"ims",

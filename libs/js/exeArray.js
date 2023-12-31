@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
       document.querySelector(".projectDesc").textContent = project.projectDescription;
       document.querySelector(".projectBg").src = project.backgroundImg;
       document.querySelector(".projectImg").src = project.projectImg;
+
         // Options
       document.querySelector(".optionShot").src = project.optionShot;
 
@@ -52,6 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // !!!!!
       document.querySelector(".btn.ss").href = project.screenshotLink;
       document.querySelector(".btn.download").href = project.downloadLink;
+      document.querySelector(".btn.live").href = project.liveLink;
 
 
       // Features-Disable
